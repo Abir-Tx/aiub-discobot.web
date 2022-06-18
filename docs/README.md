@@ -1,5 +1,11 @@
 <h1 align="center">AIUB Discobot Web</h1>
-
+<p align="center">
+<img alt="GitHub deployments" src="https://img.shields.io/github/deployments/abir-tx/aiub-discobot.web/github-pages?label=GitHub%20Pages&logo=github&style=for-the-badge">
+<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/abir-tx/aiub-discobot.web?style=for-the-badge">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/abir-tx/aiub-discobot.web?logo=github&style=for-the-badge">
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/abir-tx/aiub-discobot.web?style=for-the-badge">
+<img alt="GitHub deployments" src="https://img.shields.io/github/deployments/abir-tx/aiub-discobot.web/preview?label=Developement&logo=git&style=for-the-badge">
+</p>
 <img src="../res/images/aiub-discobot-website-by-Mushfiqur-Rahman-Abir.jpeg" height="500vh" width="1000vw" alt="AIUB Discobot Official Website Screenshot Built By Mushfiqur Rahman Abir">
 <br>
 <br>
