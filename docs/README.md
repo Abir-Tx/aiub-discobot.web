@@ -9,8 +9,10 @@
 <br>
 <br>
 <img src="https://github.com/Abir-Tx/aiub-discobot.web/actions/workflows/codeql-analysis.yml/badge.svg">
+<img src="https://github.com/Abir-Tx/aiub-discobot.web/actions/workflows/release-drafter.yml/badge.svg">
 </p>
 <img src="../res/images/aiub-discobot-website-by-Mushfiqur-Rahman-Abir.jpeg" height="500vh" width="1000vw" alt="AIUB Discobot Official Website Screenshot Built By Mushfiqur Rahman Abir">
+
 <br>
 <br>
 <hr>
