@@ -1,3 +1,13 @@
+<!-- 
+AIUB Discobot Web is an open source landing webpage project for the AIUB-Discobot project 
+developed by Mushfiqur Rahman Abir. The full website code open-sourced so anyone can contribute to or modify 
+this project but they must include full disclaimer about the main author.
+
+Project Starting date: 1 June 2022
+Created By: Mushfiqur Rahman Abir AKA Abir-Tx
+Live Site: https://aiub-discobot.vercel.app/
+CSS Framework Used: Bootstrap v5.0.0 (https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,6 +63,16 @@
 			background-size: cover;
 		}
 	</style>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-5H1217D1N9"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-5H1217D1N9');
+	</script>
 </head>
 
 <body class="bg-light">
@@ -68,14 +88,14 @@
 			</div>
 			<div class="row p-2 align-items-center">
 				<div class="col-lg-8 col-md-8 col-sm-12 ps-5">
-					<a
-						href="https://discord.com/api/oauth2/authorize?client_id=970102591155499038&permissions=277025651712&scope=bot">
+					<a href="https://discord.com/api/oauth2/authorize?client_id=970102591155499038&permissions=277025651712&scope=bot"
+						target="_blank">
 						<div
 							class="btn px-5 me-3 btn-lg btn-primary text-capitalize mb-3 mb-md-3 mb-lg-0">
 							add to server
 						</div>
 					</a>
-					<a href="https://discord.gg/HamRhe99pv">
+					<a href="https://discord.gg/HamRhe99pv" target="_blank">
 						<div class="btn btn-lg btn-info text-capitalize">
 							join support server
 						</div>
@@ -83,7 +103,7 @@
 				</div>
 				<div class="col col-lg-4 col-md-4 col-sm-12 d-none d-md-block d-lg-block ">
 					<img src="res/images/aiub-logo.png" alt="AIUB-Logo"
-						class="img-fluid rounded float-end">
+						class="rounded img-fluid float-end" height="250vh" width="250vw">
 				</div>
 			</div>
 		</div>
