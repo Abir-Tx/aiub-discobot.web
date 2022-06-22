@@ -23,7 +23,11 @@ The landing page developement repo for the [aiub-discobot](https://www.google.co
 
 # Developement
 
-- CSS Framework Used: **Bootstrap 5.2.0-beta1**
+- CSS Framework Used: `Bootstrap 5.2.0-beta1`
+
+# Contribution
+
+**Pull Requests** are very welcome to this project specially from [AIUB](https://aiub.edu) students. Just fork the repo and submit your changes through PR
 
 
 # Live Site
