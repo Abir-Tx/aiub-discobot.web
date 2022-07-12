@@ -24,6 +24,7 @@ The landing page developement repo for the [aiub-discobot](https://www.google.co
 # Developement
 
 - CSS Framework Used: `Bootstrap 5.2.0-beta1`
+- Visual Studio Code SASS: `1.8.22`
 
 # Contribution
 
