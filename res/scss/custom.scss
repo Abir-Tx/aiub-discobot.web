@@ -5,8 +5,14 @@ $link_color: inherit;
 
 
 
-// Custom CSS
-a {
+/* Custom style for the footer link and footer link hover effects */
+.footer-link {
 	color: $link_color;
 	text-decoration: none;
+
+	:hover {
+		color: #00A0C6;
+		text-decoration: none;
+		cursor: pointer;
+	}
 }
