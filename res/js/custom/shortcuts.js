@@ -10,3 +10,14 @@ function open_github_source() {
 	// window.open("http://www.github.com/abir-tx/aiub-discobot.web");
 
 }
+
+
+
+// Bind ? key for openning the help modal. 
+Mousetrap.bind('?', function () {
+	var helpModal = new bootstrap.Modal(document.getElementById('help'), {
+		keyboard: true, /* If true Closes the modal when escape key is pressed. */
+		backdrop: true
+	});
+	helpModal.show();
+})
