@@ -20,11 +20,21 @@
 # About
 The landing page developement repo for the [aiub-discobot](https://www.google.com/search?q=aiub+discobot&sxsrf=ALiCzsbDLWoh_WP0U2oXEVqTsHqpRSBv8g%3A1654705282035&source=hp&ei=gcygYsnCPKeeseMPsfmgiA0&iflsig=AJiK0e8AAAAAYqDakhLoCJPKt40hzGeApvnHlFFX9Gk9&oq=aiub+di&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAeEBYyBggAEB4QFjoLCC4QgAQQsQMQgwE6CwgAEIAEELEDEIMBOgUILhCABDoLCC4QgAQQxwEQrwFQAFi9CGD_D2gAcAB4AIABngKIAZwHkgEFMC4xLjOYAQCgAQE&sclient=gws-wiz). AIUB Discobot is a discord bot for AIUB students which serves latest notices to a discord channel automatically. It also comes with various other usefull commands. 
 
+# Features
+
+## Keyboard Shortcuts
+
+`!` is the prefix for most of the commands/keyboard shortcuts of the website (Same as the **AIUB-Discobot** bot).
+
+- `!gh`: Opens the GitHub page of the project.
+
 
 # Developement
 
 - CSS Framework Used: `Bootstrap 5.2.0-beta1`
 - Visual Studio Code SASS: `1.8.22`
+
+More notes about developement can be found [here](./Developement.md)
 
 # Contribution
 
