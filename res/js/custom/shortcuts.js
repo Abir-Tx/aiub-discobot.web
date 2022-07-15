@@ -21,3 +21,15 @@ Mousetrap.bind('?', function () {
 	});
 	helpModal.show();
 })
+
+
+// Bind !v for openning the website version and author information.
+Mousetrap.bind('! v', version_info)
+
+function version_info() {
+	var versionModal = new bootstrap.Modal(document.getElementById('version'), {
+		keyboard: true, /* If true Closes the modal when escape key is pressed. */
+		backdrop: true
+	});
+	versionModal.show();
+}
