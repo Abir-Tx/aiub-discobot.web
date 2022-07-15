@@ -41,3 +41,23 @@ function version_info() {
 Mousetrap.bind('! g i', function () {
 	window.location.href = "https://github.com/Abir-Tx/aiub-discobot.web/issues/new/choose";
 })
+
+// Bind !d for turning on/off the dark mode
+Mousetrap.bind('! d', chnage_mode_and_icon);
+
+// Clicking function for the light/dark mode in the footer
+function toggle_dark_mode() {
+	document.body.classList.toggle('light-mode');
+}
+var mode_icon = document.getElementById('mode_icon');
+mode_icon.onclick = chnage_mode_and_icon;
+
+function chnage_mode_and_icon() {
+	toggle_dark_mode();
+	if (document.body.classList.contains('light-mode')) {
+		mode_icon.src = "res/svg/dark_mode_black_24dp.svg";
+	}
+	else {
+		mode_icon.src = "res/svg/wb_sunny_white_24dp.svg";
+	}
+}
