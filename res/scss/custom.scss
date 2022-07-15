@@ -4,6 +4,8 @@
 $link_color: inherit;
 $background_color2: #0066ff;
 $background_color1: #002233;
+$text_color: white;
+$text_color_secondary: grey;
 
 /* Custom style for the footer link and footer link hover effects */
 .footer {
@@ -30,4 +32,22 @@ $background_color1: #002233;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+
+
+
+
+// Overrriding the default styles of bootstrap modal
+.modal-content {
+	background-color: $background_color1;
+	color: $text_color;
+
+	code {
+		color: $background_color2;
+	}
+
+
+	button {
+		background-color: $background_color2;
+	}
 }
