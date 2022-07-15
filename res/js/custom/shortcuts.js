@@ -56,8 +56,31 @@ function chnage_mode_and_icon() {
 	toggle_dark_mode();
 	if (document.body.classList.contains('light-mode')) {
 		mode_icon.src = "res/svg/dark_mode_black_24dp.svg";
+		localStorage.setItem('darkMode', false);
 	}
 	else {
 		mode_icon.src = "res/svg/wb_sunny_white_24dp.svg";
+		localStorage.setItem('darkMode', true);
+	}
+}
+
+
+window.onload = function () {
+	console.log('Document loaded');
+	// if (document.body.classList.contains('light-mode')) {
+	// 	localStorage.setItem('darkMode', false);
+	// 	console.log('test');
+	// }
+	// else {
+	// 	localStorage.setItem('darkMode', true);
+	// 	console.log('test11');
+	// }
+
+	if (localStorage.getItem('darkMode') === 'false') {
+		console.log('should be ');
+		document.body.classList.add('light-mode');
+	}
+	else {
+		console.log('should not be');
 	}
 }
