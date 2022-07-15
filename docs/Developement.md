@@ -10,3 +10,8 @@ Added **Mousestrap JS** library to the project to add keyboard shortcuts respond
 - Website of Mousestarp JS -> https://craig.is/killing/mice
 - CDNJS page -> https://cdnjs.com/libraries/mousetrap
 - Reference Site -> https://www.hongkiat.com/blog/keyboard-shortcuts-website/
+
+
+## Icons Used
+
+Google Icons are used -> https://fonts.google.com/icons?icon.query=help
