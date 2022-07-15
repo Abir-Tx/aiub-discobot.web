@@ -1,27 +1,32 @@
 // Custom CSS for the webpage
 
 // Variables
-$link_color: inherit;
-$background_color2: #0066ff;
-$background_color1: #002233;
+:root {
+	--link_color: inherit;
+	--background_color2: #0066ff;
+	--background_color1: #002233;
+	--text_color: white;
+	--text_color_secondary: grey;
+}
+
 
 /* Custom style for the footer link and footer link hover effects */
 .footer {
-	background-color: $background_color1;
+	background-color: var(--background_color1);
 }
 
 .footer-link {
-	color: $link_color;
+	color: var(--link_color);
 	text-decoration: none;
 
 	:hover {
-		color: $background_color2;
+		color: var(--background_color2);
 		text-decoration: none;
 		cursor: pointer;
 	}
 }
 
-/* background image styles for the landing section */
+/* background image styles for the landing section. This also will work as the dark mode*/
 .landing {
 	background-image: url('/res/svg/wave-haikei.svg');
 	aspect-ratio: 550/300;
@@ -30,4 +35,47 @@ $background_color1: #002233;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+
+	.title {
+		color: var(--text_color);
+	}
+}
+
+
+
+
+// Overrriding the default styles of bootstrap modal
+.modal-content {
+	background-color: var(--background_color1);
+	color: var(--text_color);
+
+	code {
+		color: var(--background_color2);
+	}
+
+
+	button {
+		background-color: var(--background_color2);
+	}
+}
+
+
+.light-mode {
+	--background_color1: white;
+	--text_color: black;
+	--link_color: black;
+	--background_color2: #0066ff;
+
+	.landing {
+		background-image: url('/res/svg/wave-haikei-light.svg');
+	}
+
+
+	// TODO: change the github image to dark one
+
+}
+
+// Make the mouse cursor to pointer when putting on the dark/light mode icon
+#mode_icon {
+	cursor: pointer;
 }
