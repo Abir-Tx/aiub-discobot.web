@@ -1,3 +1,5 @@
+/* File for handling Keyboard shortcut functions & dark mode functions */
+
 // bind !gh to open github source code repo. This will work as an easter egg on the site
 Mousetrap.bind('! g h', open_github_source);
 
@@ -65,22 +67,3 @@ function chnage_mode_and_icon() {
 }
 
 
-window.onload = function () {
-	console.log('Document loaded');
-	// if (document.body.classList.contains('light-mode')) {
-	// 	localStorage.setItem('darkMode', false);
-	// 	console.log('test');
-	// }
-	// else {
-	// 	localStorage.setItem('darkMode', true);
-	// 	console.log('test11');
-	// }
-
-	if (localStorage.getItem('darkMode') === 'false') {
-		console.log('should be ');
-		document.body.classList.add('light-mode');
-	}
-	else {
-		console.log('should not be');
-	}
-}
