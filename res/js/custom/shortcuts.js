@@ -9,6 +9,9 @@ function open_github_source() {
 	// Open in a new window
 	// window.open("http://www.github.com/abir-tx/aiub-discobot.web");
 
+
+	// Change the title of the tab when the !gh shortcut is issued (stated in #15)
+	document.title = "Openning GitHub Repo...";
 }
 
 
