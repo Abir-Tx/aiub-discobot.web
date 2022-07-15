@@ -79,3 +79,41 @@
 #mode_icon {
 	cursor: pointer;
 }
+
+
+// Styles for AIUB- & the bot logo
+.bot-logo {
+	transform: translate(50%);
+	display: none;
+	z-index: 1;
+	position: relative;
+	transition-delay: 1s;
+}
+
+.aiub-logo {
+	z-index: 2;
+	position: relative;
+}
+
+.aiub-logo:hover {
+	animation: aiub-logo-rotation 1s normal;
+}
+
+.aiub-logo:hover+.bot-logo {
+	display: block;
+	// transform: translate(-1%);
+}
+
+@keyframes aiub-logo-rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	50% {
+		transform: rotate(-180deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
