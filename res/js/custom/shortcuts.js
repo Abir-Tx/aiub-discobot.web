@@ -33,3 +33,9 @@ function version_info() {
 	});
 	versionModal.show();
 }
+
+// Bind !ghi for reporting issues to github issue
+Mousetrap.bind('! g i', function () {
+	alert('Opening github issue');
+	window.location.href = "https://github.com/Abir-Tx/aiub-discobot.web/issues/new/choose";
+})
