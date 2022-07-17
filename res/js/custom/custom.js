@@ -1,5 +1,8 @@
 /* The cusotom javascript file for implementing custom conditions and codes dynamically */
 
+
+
+/* Change the footer (By .....) text accordingly with respect to the device size */
 var by_abir = document.getElementById("by_abir");
 function myFunction(x) {
 	if (x.matches) { // If media query matches

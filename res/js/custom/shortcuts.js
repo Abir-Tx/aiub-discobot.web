@@ -19,13 +19,15 @@ function open_github_source() {
 
 
 // Bind ? key for openning the help modal. 
-Mousetrap.bind('?', function () {
+Mousetrap.bind('?', helpModal);
+
+function helpModal() {
 	var helpModal = new bootstrap.Modal(document.getElementById('help'), {
 		keyboard: true, /* If true Closes the modal when escape key is pressed. */
 		backdrop: true
 	});
 	helpModal.show();
-})
+}
 
 
 // Bind !v for openning the website version and author information.
@@ -53,6 +55,7 @@ function toggle_dark_mode() {
 }
 var mode_icon = document.getElementById('mode_icon');
 var github_icon = document.getElementById('github_icon');
+var help_icon = document.getElementById('help_icon');
 mode_icon.onclick = chnage_mode_and_icon;
 
 // The change mode function
@@ -61,11 +64,13 @@ function chnage_mode_and_icon() {
 	if (document.body.classList.contains('light-mode')) {
 		mode_icon.src = "res/svg/dark_mode_black_24dp.svg";
 		github_icon.src = "res/images/github-logo/GitHub-Mark-32px.png"
+		help_icon.src = "res/svg/help_outline_black_24dp.svg"
 		localStorage.setItem('darkMode', false);
 	}
 	else {
 		mode_icon.src = "res/svg/wb_sunny_white_24dp.svg";
 		github_icon.src = "res/images/github-logo/GitHub-Mark-Light-32px.png";
+		help_icon.src = "res/svg/help_outline_white_24dp.svg";
 		localStorage.setItem('darkMode', true);
 	}
 }

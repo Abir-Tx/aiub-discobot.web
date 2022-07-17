@@ -129,3 +129,17 @@ $common_transition_timing: 0.3s;
 		}
 	}
 }
+
+#help_icon {
+	cursor: pointer;
+}
+
+.modal-body #shortcuts_title {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	font-size: large;
+	// text-decoration: 5px underline var(--background_color2);
+	font-weight: bold;
+	letter-spacing: 1vw;
+	transition: 0.3s ease-in-out;
+}
