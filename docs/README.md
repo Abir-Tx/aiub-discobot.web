@@ -32,6 +32,16 @@ The landing page developement repo for the [aiub-discobot](https://www.google.co
 - `!d` : Turn on/off the dark mode
 - `?` : Show this help menu
 
+## Presistant Light/Dark Mode
+
+Mode preference is presistant on each device. So users can save their preferred mode for their next visit.
+
+### Dark Mode
+![AIUB Discobot web dark mode](https://user-images.githubusercontent.com/28858998/179418950-7fe0d0f9-c535-4c54-996e-fca730814542.jpeg)
+
+### Light Mode
+![AIUB Discobot web light mode](https://user-images.githubusercontent.com/28858998/179418953-bf8b58c3-4d87-4cba-9d76-89fbe3cefd9e.jpeg)
+
 
 # Developement
 
