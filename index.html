@@ -201,7 +201,7 @@ CSS Framework Used: Bootstrap v5.0.0 (https://getbootstrap.com/docs/5.2/getting-
 
 
 					<div class="modal-body">
-						Current Version: <code>v1.0.0</code>
+						Current Version: <code id="version_modal">v1.5</code>
 						<br>
 						Author: <code>Mushfiqur Rahman Abir</code>
 					</div>
@@ -239,7 +239,7 @@ CSS Framework Used: Bootstrap v5.0.0 (https://getbootstrap.com/docs/5.2/getting-
 						onclick="helpModal()" alt="Help Icon">
 				</div>
 				<div class="col col-6 text-end">
-					<code><a href="#" class="footer-link" onclick="javascript:version_info();">v1.0.0</a></code>
+					<code><a href="#" class="footer-link" onclick="javascript:version_info();">v1.5.0</a></code>
 					<!-- TODO: Make this dynamic by using JS-->
 				</div>
 			</div>
@@ -267,6 +267,8 @@ CSS Framework Used: Bootstrap v5.0.0 (https://getbootstrap.com/docs/5.2/getting-
 		}
 	</script>
 	<!-- My Custom JS Files -->
+	<script src="/res/js/custom/global.js"></script> //The global.js file must be on top of other js file as it
+	gives access to many variables which are used by other files
 	<script src="/res/js/custom/shortcuts.js"></script>
 	<script src="/res/js/custom/localStorage.js"></script>
 	<script src="/res/js/custom/custom.js"></script>
