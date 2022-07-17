@@ -52,16 +52,20 @@ function toggle_dark_mode() {
 	document.body.classList.toggle('light-mode');
 }
 var mode_icon = document.getElementById('mode_icon');
+var github_icon = document.getElementById('github_icon');
 mode_icon.onclick = chnage_mode_and_icon;
 
+// The change mode function
 function chnage_mode_and_icon() {
 	toggle_dark_mode();
 	if (document.body.classList.contains('light-mode')) {
 		mode_icon.src = "res/svg/dark_mode_black_24dp.svg";
+		github_icon.src = "res/images/github-logo/GitHub-Mark-32px.png"
 		localStorage.setItem('darkMode', false);
 	}
 	else {
 		mode_icon.src = "res/svg/wb_sunny_white_24dp.svg";
+		github_icon.src = "res/images/github-logo/GitHub-Mark-Light-32px.png";
 		localStorage.setItem('darkMode', true);
 	}
 }
