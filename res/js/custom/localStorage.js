@@ -1,6 +1,7 @@
 /* 
 JS Files for handling stuffs related to personalization & presistant storage
 File Creation Date: 7/16/2022
+By: Mushfiqur Rahman Abir AKA Abir-Tx
 */
 
 // Load the user preferred light/dark mode from localstorage
