@@ -23,6 +23,6 @@ function updateWebVersion() {
 	var version_footer = document.getElementById('version_footer');
 	version_modal.innerHTML = current_web_version;
 	version_footer.innerHTML = current_web_version;
-}
+};
 
-updateWebVersion();
+// TODO: Get this version info dynamically using the github API. Ref: https://github.com/octokit/octokit.js#usage

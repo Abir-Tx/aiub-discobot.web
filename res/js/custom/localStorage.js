@@ -1,11 +1,12 @@
 /* 
-JS Files for handling stuffs related to personalization & presistant storage
+JS Files for handling stuffs related to personalization & presistant storage. Also anything related to run on Windows onload are done in this file
 File Creation Date: 7/16/2022
 By: Mushfiqur Rahman Abir AKA Abir-Tx
 */
 
 // Load the user preferred light/dark mode from localstorage
 window.onload = function () {
+	updateWebVersion(); //Update the website version info on places
 	if (localStorage.getItem('darkMode') === 'false') {
 		document.body.classList.add('light-mode');
 		mode_icon.src = "res/svg/dark_mode_black_24dp.svg";
