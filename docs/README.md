@@ -27,6 +27,10 @@ The landing page developement repo for the [aiub-discobot](https://www.google.co
 `!` is the prefix for most of the commands/keyboard shortcuts of the website (Same as the **AIUB-Discobot** bot).
 
 - `!gh`: Opens the GitHub page of the project.
+- `!v` : Show the version of this website & author informations
+- `!gi` : Submit new issues or ideas about the website or the bot.
+- `!d` : Turn on/off the dark mode
+- `?` : Show this help menu
 
 
 # Developement
