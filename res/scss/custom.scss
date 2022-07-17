@@ -9,6 +9,7 @@
 	--text_color_secondary: grey;
 }
 
+$common_transition_timing: 0.3s;
 
 /* Custom style for the footer link and footer link hover effects */
 .footer {
@@ -115,5 +116,16 @@
 
 	100% {
 		transform: rotate(360deg);
+	}
+}
+
+/* Add the strech effect only for larger screens, more specifically disable the strech transition on mobile devices */
+@media screen and (min-width: 768px) {
+	.btn-strech {
+		transition: letter-spacing $common_transition_timing ease-in-out;
+
+		&:hover {
+			letter-spacing: 1.5px;
+		}
 	}
 }
