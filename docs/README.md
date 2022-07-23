@@ -6,6 +6,7 @@
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/abir-tx/aiub-discobot.web?logo=github&style=for-the-badge">
 <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/abir-tx/aiub-discobot.web?style=for-the-badge">
 <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/abir-tx/aiub-discobot.web/preview?label=Developement&logo=git&style=for-the-badge">
+<img alt="Checkly Response time" src="https://api.checklyhq.com/v1/badges/checks/14868ceb-cff7-4e8f-8750-8062b4890198?style=for-the-badge&theme=dark&responseTime=true">
 <br>
 <br>
 <img src="https://github.com/Abir-Tx/aiub-discobot.web/actions/workflows/codeql-analysis.yml/badge.svg">
