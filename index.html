@@ -117,6 +117,24 @@ CSS Framework Used: Bootstrap v5.0.0 (https://getbootstrap.com/docs/5.2/getting-
                 join support server
               </div>
             </a>
+            <br />
+            <br />
+            <script>
+              function toggleText(id) {
+                var element = document.getElementById(id);
+                if (element.style.display === "none") {
+                  element.style.display = "block";
+                } else {
+                  element.style.display = "none";
+                }
+              }
+            </script>
+            <a href="#" onclick="toggleText('collapsible-text')"
+              >Also available on</a
+            >
+            <div id="collapsible-text" class="collapsible">
+              <p class="text-white">This is the collapsible text.</p>
+            </div>
           </div>
           <div
             class="col col-lg-4 col-md-4 col-sm-12 d-none d-md-block d-lg-block"
