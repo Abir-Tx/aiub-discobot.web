@@ -137,4 +137,10 @@ $common_transition_timing: 0.3s;
 // For the collapsible section of the hosted on discord links | Also Available On Collapsible
 .collapsible {
   display: none;
+  transition: 0.5s ease-in-out;
+}
+
+.collapHeader {
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
 }
