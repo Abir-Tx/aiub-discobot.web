@@ -144,3 +144,18 @@ $common_transition_timing: 0.3s;
   text-decoration: none;
   transition: 0.5s ease-in-out;
 }
+
+// For the TOS in the footer
+
+.tos_link {
+  color: var(--link_color);
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+
+  &:hover {
+    color: var(--background_color2);
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--background_color2);
+  }
+}
