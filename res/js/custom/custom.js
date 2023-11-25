@@ -19,7 +19,7 @@ x.addListener(myFunction); // Attach listener function on state changes
 // Function to change the version informations on places of HTML
 async function updateWebVersion() {
   const octokit = new Octokit();
-  var current_web_version = "v2.1.0";
+  var current_web_version = "v2.2.0";
 
   await octokit
     .request("GET /repos/{owner}/{repo}/releases/latest", {
