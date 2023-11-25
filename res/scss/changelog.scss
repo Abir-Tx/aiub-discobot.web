@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #343a40; // Navbar background color
+  color: #ffffff; // Text color
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; // Adjusted to add space between navbar-left and navbar-brand
+
+  .navbar-left {
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 16px;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #555; // Change the background color on hover
+      }
+    }
+  }
+
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
