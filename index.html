@@ -72,8 +72,34 @@ CSS Framework Used: Bootstrap v5.0.0 (https://getbootstrap.com/docs/5.2/getting-
 </head>
 
 <!-- If the oncontextmenu = false then right click context menu gets disabled -->
-
+<!-- Added on v2.3.0 -->
 <body class="" oncontextmenu="return false">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="res/images/aiub-logo.png" alt="AIUB-Logo" class="rounded img-fluid aiub-logo" height="50vh"
+            width="50vw" />
+          <span class="text-uppercase fw-bold">AIUB Discobot</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="material-symbols-outlined"> menu </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="#" class="nav-link"><span class="d-none d-sm-inline">Privacy Policy</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><span class="d-none d-sm-inline">Changelog</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <!-- End of Navbar -->
+
   <!-- Welcome/Landing section -->
   <section class="landing">
     <div class="container-sm">
