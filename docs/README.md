@@ -19,7 +19,8 @@
 <hr>
 
 # About
-The landing page developement repo for the [aiub-discobot](https://www.google.com/search?q=aiub+discobot&sxsrf=ALiCzsbDLWoh_WP0U2oXEVqTsHqpRSBv8g%3A1654705282035&source=hp&ei=gcygYsnCPKeeseMPsfmgiA0&iflsig=AJiK0e8AAAAAYqDakhLoCJPKt40hzGeApvnHlFFX9Gk9&oq=aiub+di&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAeEBYyBggAEB4QFjoLCC4QgAQQsQMQgwE6CwgAEIAEELEDEIMBOgUILhCABDoLCC4QgAQQxwEQrwFQAFi9CGD_D2gAcAB4AIABngKIAZwHkgEFMC4xLjOYAQCgAQE&sclient=gws-wiz). AIUB Discobot is a discord bot for AIUB students which serves latest notices to a discord channel automatically. It also comes with various other usefull commands. 
+
+The landing page developement repo for the [aiub-discobot](https://www.google.com/search?q=aiub+discobot&sxsrf=ALiCzsbDLWoh_WP0U2oXEVqTsHqpRSBv8g%3A1654705282035&source=hp&ei=gcygYsnCPKeeseMPsfmgiA0&iflsig=AJiK0e8AAAAAYqDakhLoCJPKt40hzGeApvnHlFFX9Gk9&oq=aiub+di&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAeEBYyBggAEB4QFjoLCC4QgAQQsQMQgwE6CwgAEIAEELEDEIMBOgUILhCABDoLCC4QgAQQxwEQrwFQAFi9CGD_D2gAcAB4AIABngKIAZwHkgEFMC4xLjOYAQCgAQE&sclient=gws-wiz). AIUB Discobot is a discord bot for AIUB students which serves latest notices to a discord channel automatically. It also comes with various other usefull commands.
 
 # Features
 
@@ -33,16 +34,25 @@ The landing page developement repo for the [aiub-discobot](https://www.google.co
 - `!d` : Turn on/off the dark mode
 - `?` : Show this help menu
 
+## Responsive Design
+
+The website is fully responsive and can be viewed on any device. Certain elements and animations are hidden on smaller screens to make the website more user friendly.
+
+## Changelog & Announcements
+
+The website has a dedicated section for the latest updates and announcements. Users can view the latest updates and announcements from the website.
+
 ## Presistant Light/Dark Mode
 
 Mode preference is presistant on each device. So users can save their preferred mode for their next visit.
 
 ### Dark Mode
+
 ![AIUB Discobot web dark mode](https://user-images.githubusercontent.com/28858998/179418950-7fe0d0f9-c535-4c54-996e-fca730814542.jpeg)
 
 ### Light Mode
-![AIUB Discobot web light mode](https://user-images.githubusercontent.com/28858998/179418953-bf8b58c3-4d87-4cba-9d76-89fbe3cefd9e.jpeg)
 
+![AIUB Discobot web light mode](https://user-images.githubusercontent.com/28858998/179418953-bf8b58c3-4d87-4cba-9d76-89fbe3cefd9e.jpeg)
 
 # Developement
 
@@ -54,7 +64,6 @@ More notes about developement can be found [here](./Developement.md)
 # Contribution
 
 **Pull Requests** are very welcome to this project specially from [AIUB](https://aiub.edu) students. Just fork the repo and submit your changes through PR
-
 
 # Live Site
 
