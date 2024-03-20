@@ -53,7 +53,7 @@ $common_transition_timing: 0.3s;
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: 0.15em; /* Adjust as needed */
-    animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+    animation: typing 3.5s steps(40, end), blink-caret 0.5s step-end infinite;
   }
 
   /* The typing effect */
